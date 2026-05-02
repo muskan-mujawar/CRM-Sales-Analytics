@@ -98,7 +98,7 @@ Before loading into MySQL, I inspected all four CSVs using **pandas** to identif
 ### Python Cleaning
 
 Used Python to clean missing values, remove duplicates, and standardize formats.
-All python codes are in [`CRM_Sales (1).ipynb`](CRM_Sales (1).ipynb)
+
 
 ---
 
@@ -170,6 +170,7 @@ All queries are in [`CRM_SALES_QUERIES.sql`](CRM_SALES_QUERIES.sql)
 | Lost | 1,589 |
 | Engaging | ~2,000 |
 | Prospecting | 500 |
+
 
 > ~2,000 stale "Engaging" deals sit idle. At average won deal value (~$775), converting just 20% adds ~$310K in revenue without any new prospecting spend.
 
