@@ -1,8 +1,6 @@
 # CRM Sales Analytics Dashboard
 ### Python · MySQL · Power BI — End-to-End Sales Pipeline Analysis
 
-![Dashboard Preview](crm_dashboard.PNG)
-
 > Cleaned and analyzed **8,800+ B2B CRM deals** worth **$10M in total revenue** using Python for data cleaning, MySQL for business queries, and Power BI for interactive dashboards — uncovering performance gaps across agents, products, and accounts.
 
 ---
@@ -78,7 +76,7 @@ Four relational CSV tables exported from a CRM system:
 
 ---
 
-##Data Cleaning with Python
+## Data Cleaning with Python
 
 Before loading into MySQL, I inspected all four CSVs using **pandas** to identify and resolve quality issues.
 
@@ -100,7 +98,7 @@ Before loading into MySQL, I inspected all four CSVs using **pandas** to identif
 ### Python Cleaning
 
 Used Python to clean missing values, remove duplicates, and standardize formats.
-All python codes are in [`CRM_Sales(1).ipynb`](CRM_Sales(1).ipynb)
+All python codes are in [`CRM_Sales (1).ipynb`](CRM_Sales (1).ipynb)
 
 ---
 
@@ -130,6 +128,7 @@ All queries are in [`CRM_SALES_QUERIES.sql`](CRM_SALES_QUERIES.sql)
 | Peak Monthly Revenue | $1.34M (June 2017) |
 | Lowest Monthly Revenue | $697K (July 2017) |
 | Revenue Decline Jun → Jul | -48% |
+
 
 > Revenue declined consistently from June 2017 onward — a 48% drop over 13 months. This signals either seasonal demand, pipeline quality issues, or reduced prospecting activity upstream.
 
