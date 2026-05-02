@@ -1,7 +1,7 @@
 # CRM Sales Analytics Dashboard
 ### Python · MySQL · Power BI — End-to-End Sales Pipeline Analysis
 
-![Dashboard Preview](dashboard/crm_dashboard.PNG)
+![Dashboard Preview](crm_dashboard.PNG)
 
 > Cleaned and analyzed **8,800+ B2B CRM deals** worth **$10M in total revenue** using Python for data cleaning, MySQL for business queries, and Power BI for interactive dashboards — uncovering performance gaps across agents, products, and accounts.
 
@@ -100,8 +100,8 @@ Before loading into MySQL, I inspected all four CSVs using **pandas** to identif
 ### Python Cleaning
 
 Used Python to clean missing values, remove duplicates, and standardize formats.
+All python codes are in [`CRM_Sales(1).ipynb`](CRM_Sales(1).ipynb)
 
-All queries are in [`CRM_Ssles(1).ipynb`](CRM_Ssles(1).ipynb)
 ---
 
 ### Key Cleaning Decisions Explained
