@@ -12,8 +12,8 @@
 - [Business Problem](#business-problem)
 - [Dataset](#dataset)
 - [Tools & Technologies](#tools--technologies)
-- [Data Cleaning with Python](#step-1--data-cleaning-with-python)
-- [SQL Analysis](#step-2--sql-analysis)
+- [Data Cleaning with Python](#data-cleaning-with-python)
+- [SQL Analysis](#sql-analysis)
 - [Key Findings & Insights](#key-findings--insights)
 - [Business Recommendations](#business-recommendations)
 - [Dashboard](#dashboard)
@@ -78,7 +78,7 @@ Four relational CSV tables exported from a CRM system:
 
 ---
 
-## Step 1 — Data Cleaning with Python
+##Data Cleaning with Python
 
 Before loading into MySQL, I inspected all four CSVs using **pandas** to identify and resolve quality issues.
 
@@ -101,6 +101,7 @@ Before loading into MySQL, I inspected all four CSVs using **pandas** to identif
 
 Used Python to clean missing values, remove duplicates, and standardize formats.
 
+All queries are in [`CRM_Ssles(1).ipynb`](CRM_Ssles(1).ipynb)
 ---
 
 ### Key Cleaning Decisions Explained
@@ -115,7 +116,7 @@ Ensuring a consistent `YYYY-MM-DD` format prevents MySQL from silently misinterp
 
 ## SQL Analysis
 
-All queries are in [`queries/CRM_SALES_QUERIES.sql`](queries/CRM_SALES_QUERIES.sql)
+All queries are in [`CRM_SALES_QUERIES.sql`](CRM_SALES_QUERIES.sql)
 
 ---
 
@@ -207,7 +208,7 @@ The Power BI dashboard covers:
 - Revenue by Product (bar chart)
 - Revenue by Region (pie chart)
 
-![Dashboard](dashboard/crm_dashboard.PNG)
+![Dashboard](crm_dashboard.PNG)
 
 ---
 
