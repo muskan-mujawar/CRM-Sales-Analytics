@@ -214,7 +214,7 @@ The Power BI dashboard covers:
 
 ## Connect With Me
 
-- LinkedIn: [[Your LinkedIn URL](https://www.linkedin.com/in/muskan-mujawar-231a04323/)]
+- LinkedIn: [LinkedIn(https://www.linkedin.com/in/muskan-mujawar-231a04323/)]
 - Email: [mujawar.muskan.aziz@gmail.com]
 
 
